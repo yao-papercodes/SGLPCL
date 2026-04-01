@@ -1,19 +1,19 @@
-# Joint Adversarial Network With Semantic and Topology Fusion for Cross-Scene Hyperspectral Image Classification
+# Source-Driven Global-Local Prototype Contrastive Learning for Hyperspectral Domain Adaptation
 Implementation of paper:
-- [Joint Adversarial Network With Semantic and Topology Fusion for Cross-Scene Hyperspectral Image Classification](https://ieeexplore.ieee.org/abstract/document/10559841)  
-  IEEE Transactions on Geoscience and Remote Sensing (IEEE TGRS), 2024.  
-  Ronghua Shang, Yuhao Xie, Weitong Zhang, Jie Feng, Songhua Xu
+- [Source-Driven Global-Local Prototype Contrastive Learning for Hyperspectral Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/11436091)  
+  IEEE Transactions on Geoscience and Remote Sensing (IEEE TGRS), 2026.  
+  Yuhao Xie, Ronghua Shang, Jinhong Ren, Jingyu Zhong, Jie Feng, Songhua Xu
 
 <div align=center>
 	<img src="./figures/framework.png"/>
-	<p>Framwork of JAN-STF. (Details of CGCAN, TADCA and LTCAN can be found in paper.) </p>
+	<p>Framwork of SGLPCL. (Details of 3SE and ATS can be found in paper.) </p>
 </div>
 
 ## Environment
-Ubuntu 20.04.2 LTS, python 3.8.10, PyTorch 1.12.1.
+Ubuntu 20.04.2 LTS, python 3.8.10, PyTorch 2.1.2.
 
 ## Datasets
-Application website： [Houston, HyRANK, Pavia](https://github.com/YuxiangZhang-BIT/Data-CSHSI)
+Application website： [Houston, HyRANK, Shanghai-Hangzhou](https://github.com/YuxiangZhang-BIT/Data-CSHSI)
 <div align="center">
   <img src="./figures/Houston.png" alt="Houston Image"/>
   <p>(a),(b): False color and GT maps of Houston2013. (c), (d): False color and GT maps of Houston2018. </p>
@@ -36,15 +36,15 @@ python train.py
 ## Citation
 If you find our paper or code helpful, please cite our work.
 ```bash
-@ARTICLE{10559841,
-  author={Shang, Ronghua and Xie, Yuhao and Zhang, Weitong and Feng, Jie and Xu, Songhua},
+@ARTICLE{XieSGLPCL,
+  author={Xie, Yuhao and Shang, Ronghua and Ren, Jinhong and Jingyu, Zhong and Feng, Jie and Xu, Songhua},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Joint Adversarial Network With Semantic and Topology Fusion for Cross-Scene Hyperspectral Image Classification}, 
-  year={2024},
-  volume={62},
+  title={Source-Driven Global-Local Prototype Contrastive Learning for Hyperspectral Domain Adaptation}, 
+  year={2026},
+  volume={},
   number={},
-  pages={1-16},
-  doi={10.1109/TGRS.2024.3415965}}
+  pages={1-15},
+  doi={10.1109/TGRS.2026.3674804}}
 ```
 
 ## Contributors
