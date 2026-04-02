@@ -23,8 +23,8 @@ Application website： [Houston, HyRANK, Shanghai-Hangzhou](https://github.com/Y
   <p>(a),(b): False color and GT maps of Dioni. (c), (d): False color and GT maps of Loukia. </p>
 </div>
 <div align="center">
-  <img src="./figures/Pavia.png" alt="Pavia Image"/>
-  <p>(a),(b): False color and GT maps of PaviaU. (c), (d): False color and GT maps of PaviaC. </p>
+  <img src="./figures/S-H.png" alt="Pavia Image"/>
+  <p>(a),(b): False color and GT maps of Shanghai. (c), (d): False color and GT maps of Hangzhou. </p>
 </div>
 
 ## Usage
